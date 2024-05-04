@@ -1,0 +1,148 @@
+Match found in answer_part file for Question ID 14 and Question Number 14:
+1, 2, 3 and 4
+2, 3 and 4
+1, 3, and 4
+1 and 2
+---
+
+Match found in answer_part file for Question ID 34 and Question Number 34:
+1, 2, 3 and 4
+1, 3 and 4
+1 and 4
+2 and 3
+
+
+ A 3
+---
+
+Match found in answer_part file for Question ID 37 and Question Number 37:
+1, 2, 3 and 4
+3 and 4
+1, 2 and 4
+1 and 2
+---
+
+Match found in answer_part file for Question ID 67 and Question Number 67:
+1 and 2
+Only 2
+Only 3
+1, 2 and 3
+---
+
+Match found in answer_part file for Question ID 84 and Question Number 84:
+1 and 2 only
+3 and 4 only
+1, 3 and 4 only
+1, 2, 3 and 4
+---
+
+Match found in answer_part file for Question ID 85 and Question Number 85:
+1 only
+2 and 3 only
+1 and 3 only
+1, 2 and 3
+---
+
+Match found in answer_part file for Question ID 89 and Question Number 89:
+1 and 2 only
+3 only
+2 and 3 only
+1, 2 and 3
+---
+
+Match found in answer_part file for Question ID 93 and Question Number 93:
+1 and 2 only
+2 only
+1, 2 and 3
+None of the statements given above is correct
+---
+
+Match found in answer_part file for Question ID 94 and Question Number 94:
+1 only
+2 and 3 only
+1 and 3 only
+1, 2 and 3
+---
+
+Match found in answer_part file for Question ID 95 and Question Number 95:
+1 only
+2 and 3 only
+3 only
+1, 2 and 3
+---
+
+Match found in answer_part file for Question ID 96 and Question Number 96:
+1 only
+2 and 3 only
+1 and 3 only
+1, 2 and 3
+---
+
+Match found in answer_part file for Question ID 98 and Question Number 98:
+1 only
+1 and 2 only
+1, 2 and 3
+Not available
+---
+
+Match found in answer_part file for Question ID 99 and Question Number 99:
+1 and 2 only
+3 only
+1 and 3 only
+1, 2 and 3
+---
+
+Match found in answer_part file for Question ID 100 and Question Number 100:
+1 only
+2 and 3 only
+1 and 3 only
+1, 2 and 3
+---
+
+Match found in answer_part file for Question ID 103 and Question Number 103:
+1, 2 and 3
+2 and
+Not available
+Not available
+---
+
+Match found in answer_part file for Question ID 109 and Question Number 109:
+1 only
+2 and 3 only
+( c ) 1 and 3 o nly
+Not available
+1, 2 and 3
+---
+
+Match found in answer_part file for Question ID 110 and Question Number 110:
+1 only
+2 and 3 only
+( c ) 1 and 3 o nly
+Not available
+1, 2 and 3
+---
+
+Match found in answer_part file for Question ID 118 and Question Number 118:
+1 only
+1 and 2 only
+( c ) 2 and 3 o nly
+Not available
+1, 2 and 3
+---
+
+Match found in answer_part file for Question ID 123 and Question Number 123:
+1 and 2 only
+2 and 3 only
+3 only
+1, 2 and 3
+
+
+ A 9
+---
+
+Match found in answer_part file for Question ID 130 and Question Number 130:
+1 and 2 only
+1 and 3 only
+2 and 3 only
+1, 2 and 3
+---
