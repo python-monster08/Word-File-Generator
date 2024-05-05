@@ -82,7 +82,8 @@ def upload_file_view(request):
             expected_headers = [
                 'Question No', 'Question Text', 'Year', 'Assertion (A)', 'Reason (R)',
                 'List - I Heading', 'List - II Heading', 'List - I Option A', 'List - I Option B',
-                'List - I Option C', 'List - I Option D', 'List - II Option 1', 'List - II Option 2',
+                'List - I Option C', 'List - I Option D', 'List - I Option E', 'List - I Option F', 
+                'List - I Option G', 'List - I Option H', 'List - II Option 1', 'List - II Option 2',
                 'List - II Option 3', 'List - II Option 4', 'List - II Option 5', 'Option A',
                 'Option B', 'Option C', 'Option D', 'Option E', 'List - I Selection Text ',
                 'Correct Answer Option', 'Correct Answer Discription', 'Question Type', 'Marks',
@@ -115,6 +116,10 @@ def upload_file_view(request):
                         list_i_option_b=clean_text(row.get('List - I Option B', '')),
                         list_i_option_c=clean_text(row.get('List - I Option C', '')),
                         list_i_option_d=clean_text(row.get('List - I Option D', '')),
+                        list_i_option_e=clean_text(row.get('List - I Option E', '')),
+                        list_i_option_f=clean_text(row.get('List - I Option F', '')),
+                        list_i_option_g=clean_text(row.get('List - I Option G', '')),
+                        list_i_option_h=clean_text(row.get('List - I Option H', '')),
                         list_ii_option_1=clean_text(row.get('List - II Option 1', '')),
                         list_ii_option_2=clean_text(row.get('List - II Option 2', '')),
                         list_ii_option_3=clean_text(row.get('List - II Option 3', '')),
@@ -166,7 +171,7 @@ def upload_file_view(request):
 def generate_questions_document(request):
     try:
         # Setup directory and document file to save generated word file
-        base_dir = r'C:\Users\HP\Desktop\ClassPlus Word File Creator Project\hia_project\media\word_files'
+        base_dir = r'D:\HIA\Word-File-Generator\hia_project\media\word_files'
         os.makedirs(base_dir, exist_ok=True)
         today = datetime.today().strftime('%Y-%m-%d')
         file_name = f'all_questions_{today}.docx'
@@ -194,7 +199,7 @@ def generate_questions_document(request):
                 # Handle list_i_selection_text or list-I type questions
                 q_row[1].text = f"{question_text}\n"
                 options_format = "\n".join([
-                    f"{i}. {getattr(question, f'list_i_option_{chr(96+i)}', '')}" for i in range(1, 5)
+                    f"{i}. {getattr(question, f'list_i_option_{chr(96+i)}', '')}" for i in range(1, 9)
                     if getattr(question, f'list_i_option_{chr(96+i)}', '')
                 ])
                 q_row[1].text += options_format # + "\n" + clean_text(question.list_i_selection_text)
@@ -232,7 +237,7 @@ def generate_questions_document(request):
                 # Add 'Codes:' text below the sub-table within the same cell
                 p = q_row[1].add_paragraph()
                 # p.add_run("\nCodes:").bold = True
-                p.add_run("\nCodes:")
+                p.add_run("\nCodes:\t A\t B\t C\t D")
 
 
             else:
